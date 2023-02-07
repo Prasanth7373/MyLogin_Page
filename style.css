@@ -1,0 +1,213 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 50%;
+}
+
+h3 {
+    margin-top: -7px;
+    margin-left: 80px;;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4.sign {
+
+    font-size: 1.3rem;;
+    margin-left: 37px;
+}
+
+p {
+    color: rgba(77, 78, 78,.7);
+    font-size: .8rem;
+    margin-left: 12px;
+    text-align: center;
+    word-wrap: nowrap;
+}
+
+.container {
+    border-radius: 15px;
+    display: flex;
+    width:55%;
+    height: ;
+    clear: both;
+    border:1px solid rgb(207, 207, 207);
+    margin: 70px;
+    margin-left: 230px;
+    padding: 20px;
+}
+
+.place {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+input {
+    font-size: .9rem;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+.left {
+    display: inline-block;
+}
+
+.rem {
+    font-size: .9rem;
+    margin-left: 30px;
+}
+
+.rem a {
+    font-size: .9rem;
+    margin-left: 90px;
+}
+
+input[type=checkbox] {
+    accent-color: rgba(0, 47, 255, 0.911);
+}
+
+section {
+    font-size: .9rem;
+    margin-top: 10px;;
+    margin-left: 35px;
+}
+
+.login {
+    border-color: #1768ff;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #1768ff;
+}
+
+.or {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+
+.facebook {
+    border-color: #1f02c2;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    background-color: #1f02c2;
+}
+
+.twitter {
+    border-color: #05b2fc;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    background-color: #05b2fc;
+}
+
+.google {
+    border-color: #fa2a2a;
+    font-size: .9rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    background-color: #fa2a2a;
+}
+
+.login, .facebook, .twitter, .google{
+    border-radius: 3px;
+    width: 345px;
+    padding: 10px;
+}
+
+.image {
+    float: right;
+    position: relative;
+    top: -610px;
+    right: -350px;
+    width: 40%;
+    width: 300px;
+    height: 105px;
+}
+
+img {
+    border-radius: 0px 15px 15px 0px;
+}
+
+input[type=password]:focus {
+    border:2px #c3f3fa;
+}
+
+button[type=button]:hover {
+    opacity: .8;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:320px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    .image {
+        display: none;
+    }
+    h3 {
+        text-align: center;
+        margin-left: 5px;
+        font-size: 1.3rem;;
+    }
+    .container {
+        clear: both;
+        width: 240px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    h4.sign {
+        margin-left: 2px;
+    }
+    p {
+        width: 250px;
+        word-break: break-all;
+        margin-left: -4px;
+    }
+    .place {
+        width: 230px;
+        margin-left: 2px;
+    }
+    .login {
+        width: 230px;
+        margin-top: 15px;
+    }
+    .rem,.rem a {
+        font-size: .7rem;
+        margin-left: 2px;
+
+    }
+    .rem a {
+        margin-left: 20px;
+    }
+    .or {
+        margin-left: 60px;
+        position: relative;
+        top: -12px;
+    }
+    .facebook, .twitter, .google {
+        margin-left: -35px;;
+        width: 230px;
+        position: relative;
+        top: -5px;
+    }
+}
